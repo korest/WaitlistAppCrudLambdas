@@ -10,7 +10,7 @@ abstract class HttpHandler {
     companion object {
         const val PATH_WAITLIST_ID = "waitlistId"
 
-        val LOG = LogManager.getLogger(HttpHandler::class.java)
+        val LOG = LogManager.getLogger()
         val OBJECT_MAPPER = ObjectMapper()
     }
 
