@@ -9,7 +9,7 @@ phases:
       - npm --version
   build:
     commands:
-      - ./gradelw build
+      - ./gradlew build
       - sls deploy --verbose
   post_build:
     commands:
